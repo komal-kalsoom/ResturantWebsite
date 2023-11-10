@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing : border-box;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+  border-bottom : 1px solid #b6b1b1;
+  height: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width : 850px)
+{
+    header{
+        display : flex;
+        flex-wrap : wrap;
+        width: 100%;
+        height: 150px;
+    }
+}
+.logo i {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(242, 146, 44);
+}
+.logo a {
+  text-decoration: none;
+}
+.logo a i span {
+  color: black;
+  font-size: 25px;
+  color: rgb(242, 146, 44);
+  font-family: "Clicker Script";
+}
+.logo_container {
+  margin-left: 4%;
+}
+.action_bar {
+  margin-right: 4%;
+}
+.nav_bar {
+  display: flex;
+  min-width: 300px;
+  justify-content : space-evenly;
+
+}
+.nav_bar a {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding : 28px 0;
+  border-bottom : 5px solid white;
+
+}
+.nav_bar a:hover{
+    border-bottom : 4px solid rgb(242, 146, 44);
+}
+.search_bar {
+  height: 40px;
+  min-width: 180px;
+  width : 30%;
+  display : flex;
+  align-items : center;
+}
+.search_icon {
+    box-sizing : content;
+    height : 40px;
+    padding : 10px;
+    background : #f5f5f6;
+    color : #282c3f;
+    font-weight : 300;
+    border-radius : 4px 0 0 4px;
+}
+.search_input {
+    color: #696e79;
+    background : #f5f5f6;
+    flex-grow : 1;
+    height : 40px;
+    border : none;
+    border-radius :0 4px 4px 0;
+
+}
+.action_bar{
+    display : flex;
+    min-width : 100px;
+    justify-content : space-evenly;
+}
+/* main part banner image */
+/* main{
+  margin-top : 15px;
+} */
+.banner_image{
+width : 100%;
+}
+.category_heading{
+    text-transform : uppercase;
+    color : #3e4152;
+    letter-spacing : .15em;
+    font-size : 1.8em;
+    margin : 50px 0 10px 30px;
+    max-height : 5em;
+    font-weight : 700;
+}
+.category_items{
+    width : 80;
+    margin : 50px 10px;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-evenly;
+}
+.offer_item{
+    width : 250px;
+}
+.footer_container{
+    padding : 30px 0px 40px 0px;
+    background : #FAFBFC;
+    display : flex;
+    justify-content : space-evenly;
+}
+.footer-column{
+    display : flex;
+   flex-direction : column;
+}
+.footer-column h3{
+    color : #282c3f;
+    font-size : 14px;
+    margin-bottom : 25px;
+}
+.footer-column a{
+    color : #696b79;
+    font-size : 15px;
+    text-decoration : none;
+    padding-bottom : 5px;
+}
+.copyright{
+    color : #94969f;
+    text-align : end;
+    padding : 15px;
+}
+
+.bag-item-count{
+  background : rgb(242, 146, 44);
+  white-space : nowrap;
+  text-align : center;
+  padding : 0 6px;
+  border-radius : 50%;
+  position : relative;
+  right : 5px;
+}
